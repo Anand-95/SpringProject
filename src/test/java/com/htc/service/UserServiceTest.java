@@ -24,8 +24,8 @@ public class UserServiceTest {
 	@Test
 	public void test() {
 		Login login = new Login();
-		login.setUsername("sayooj");
-		login.setPassword("password");
+		login.setUsername("anand");
+		login.setPassword("anand111");
 		if(userService.validateUser(login)!=null){
 			System.out.println("Login Test Success...");
 		}
