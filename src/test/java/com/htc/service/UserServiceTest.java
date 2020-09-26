@@ -40,7 +40,7 @@ public class UserServiceTest {
 		user.setLastname("TestLastName");
 		user.setPassword("TestPass");
 		user.setUsername("Testing");
-		user.setPhone(123123123);
+		user.setPhone(123456);
 		userService.register(user);
 		userService.removeTestRegister(user);
 		System.out.println("Register Test Success...");
