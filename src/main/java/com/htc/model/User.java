@@ -9,7 +9,7 @@ public class User {
 	private String lastname;
 	private String email;
 	private String address;
-	private int phone;
+	private double phone;
 
 	public String getUsername() {
 		return username;
@@ -59,11 +59,11 @@ public class User {
 		this.address = address;
 	}
 
-	public int getPhone() {
+	public double getPhone() {
 		return phone;
 	}
 
-	public void setPhone(int phone) {
+	public void setPhone(double phone) {
 		this.phone = phone;
 	}
 }
